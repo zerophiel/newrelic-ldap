@@ -1,8 +1,7 @@
 # newrelic-ldap
-Run these commands to install newrelic infrastructure agent
-  sudo yum -q makecache -y --disablerepo='*' --enablerepo='newrelic-infra
-
-  sudo yum install newrelic-infra-integrations
+Run these commands to install newrelic infrastructure agent\
+  sudo yum -q makecache -y --disablerepo='*' --enablerepo='newrelic-infra\
+  sudo yum install newrelic-infra-integrations\
 
 Place ldapnewrelic.py, ldapnewrelic-definition.yml, and JSONData.json into:
           /var/db/newrelic-infra/custom-integrations/

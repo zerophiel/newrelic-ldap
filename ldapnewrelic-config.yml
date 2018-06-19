@@ -1,0 +1,5 @@
+integration_name: com.ldap.newrelic
+instances:
+  - name: ldap.newrelic.metrics
+    command: metrics
+    

@@ -1,0 +1,12 @@
+name: com.ldap.newrelic
+description: Reports status and metrics
+protocol_version: 1
+os: linux
+
+commands:
+  metrics:
+    command:
+      - python
+      - ./ldapnewrelic.py
+      - --metrics
+    interval: 15

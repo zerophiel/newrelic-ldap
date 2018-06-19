@@ -31,7 +31,7 @@ use NRQL to pull out metrics from python by following command by defined event t
 ```shell
   SELECT * FROM LDAP_NAME
 ```
-###selectable metrics field:
+### Selectable metrics field:
 
   Threads : Display Current Threads
 

@@ -31,7 +31,8 @@ use NRQL to pull out metrics from python by following command by defined event t
 ```shell
   SELECT * FROM LDAP_NAME
 ```
-selectable metrics field:
+###selectable metrics field:
+
   Threads : Display Current Threads
 
   add_operations : Display Total Add Operations since server up (referencing to uptime)
@@ -43,7 +44,7 @@ selectable metrics field:
   core_count: Displays current core count
 
   currentAddOps: Displays current Add Operations
-  
+
   currentBind: Displays current Bind Operations
 
   currentCompOps: Displays current Compare Operations
